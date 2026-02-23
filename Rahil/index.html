@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rahil Ali Raza - Flutter & Android Developer with 3+ years of experience building mobile and web applications.">
+    <meta name="keywords" content="Rahil Ali Raza, Flutter Developer, Android Developer, Mobile App Developer, Dart, Java, Bhopal">
+    <meta name="author" content="Rahil Ali Raza">
+    <title>Rahil Ali Raza | Flutter & Android Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Rahil<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <a href="#contact" class="nav-cta">Hire Me</a>
+                <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Rahil Ali Raza</h1>
+                <h2 class="hero-title">
+                    <span class="typing-wrapper">
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="typing-cursor">|</span>
+                    </span>
+                </h2>
+                <p class="hero-description">
+                    Flutter Developer with 3+ years of experience in building, integrating, testing and supporting
+                    applications for mobile and web. Dedicated to continuously discovering, evaluating and implementing
+                    new technologies to maximize development efficiency.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View My Work
+                    </a>
+                    <a href="assets/Rahil_Resume.pdf" class="btn btn-outline" id="downloadResume" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:rahilali15032002@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+917987737702" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <div class="floating-badge badge-1">
+                    <i class="fab fa-flutter" style="font-size:1.3rem;">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M14.314 0L2.3 12 6 15.7 21.684 0h-7.37zm0 11.066L7.758 17.58l6.556 6.42H21.7l-6.504-6.42 6.5-6.514h-7.38z"/></svg>
+                    </i>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="floating-badge badge-3">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="floating-badge badge-4">
+                    <i class="fas fa-fire"></i>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">01.</span> About Me
+            </h2>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        I'm a dedicated <strong>Flutter & Android Developer</strong> with 3+ years of hands-on experience
+                        in building, integrating, testing and supporting applications for mobile and web platforms.
+                        I have strong expertise across different SDK versions and the complete software development lifecycle.
+                    </p>
+                    <p>
+                        My experience spans from developing high-scale production mobile apps to implementing
+                        complex features like payment gateway integrations, real-time communication with Agora & Zegocloud,
+                        Google Maps with clustering, POS printer integrations, and offline-first architectures using
+                        SQLite and Room.
+                    </p>
+                    <p>
+                        I'm passionate about clean architecture, state management with BloC, and building
+                        seamless user experiences. Currently based in Bhopal, I continuously explore and adopt
+                        new technologies to maximize development efficiency.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="9">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Apps Published</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="2">0</span>
+                            <span class="stat-label">Companies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-image-wrapper">
+                        <div class="about-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="about-image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">02.</span> Skills & Technologies
+            </h2>
+            <div class="skills-categories">
+                <!-- Mobile Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Development</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fas fa-feather-alt"></i> Flutter</span>
+                        <span class="skill-badge"><i class="fab fa-android"></i> Android SDK</span>
+                        <span class="skill-badge"><i class="fas fa-laptop-code"></i> Android Studio</span>
+                        <span class="skill-badge"><i class="fas fa-cube"></i> Dart</span>
+                        <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-badge"><i class="fas fa-cubes"></i> BloC Provider</span>
+                        <span class="skill-badge"><i class="fas fa-layer-group"></i> MVVM</span>
+                        <span class="skill-badge"><i class="fas fa-sitemap"></i> Clean Architecture</span>
+                    </div>
+                </div>
+                <!-- Backend & Database -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Backend & Database</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fas fa-fire"></i> Firebase</span>
+                        <span class="skill-badge"><i class="fas fa-fire-alt"></i> Firestore</span>
+                        <span class="skill-badge"><i class="fas fa-database"></i> SQLite</span>
+                        <span class="skill-badge"><i class="fas fa-warehouse"></i> Room</span>
+                        <span class="skill-badge"><i class="fas fa-exchange-alt"></i> REST APIs</span>
+                        <span class="skill-badge"><i class="fas fa-plug"></i> Retrofit</span>
+                        <span class="skill-badge"><i class="fas fa-network-wired"></i> OkHttp</span>
+                        <span class="skill-badge"><i class="fas fa-code"></i> JSON / XML</span>
+                    </div>
+                </div>
+                <!-- Tools & Platforms -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-badge"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-badge"><i class="fas fa-paper-plane"></i> Postman</span>
+                        <span class="skill-badge"><i class="fab fa-figma"></i> Figma</span>
+                        <span class="skill-badge"><i class="fas fa-video"></i> Agora</span>
+                        <span class="skill-badge"><i class="fas fa-cloud-upload-alt"></i> Zegocloud</span>
+                        <span class="skill-badge"><i class="fas fa-robot"></i> Android Emulator</span>
+                    </div>
+                </div>
+                <!-- APIs & Services -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-header">
+                        <i class="fas fa-cogs"></i>
+                        <h3>APIs & Services</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i class="fas fa-map-marker-alt"></i> Google Maps</span>
+                        <span class="skill-badge"><i class="fas fa-map-signs"></i> Google Places</span>
+                        <span class="skill-badge"><i class="fas fa-directions"></i> Google Directions</span>
+                        <span class="skill-badge"><i class="fas fa-credit-card"></i> PhonePe</span>
+                        <span class="skill-badge"><i class="fas fa-wallet"></i> Paytm</span>
+                        <span class="skill-badge"><i class="fas fa-money-check-alt"></i> CC Avenue</span>
+                        <span class="skill-badge"><i class="fas fa-bell"></i> FCM</span>
+                        <span class="skill-badge"><i class="fas fa-print"></i> POS Printers</span>
+                        <span class="skill-badge"><i class="fab fa-bluetooth-b"></i> Bluetooth</span>
+                        <span class="skill-badge"><i class="fas fa-wifi"></i> WiFi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE SECTION ========== -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">03.</span> Work Experience
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Android / Flutter Application Developer</h3>
+                            <span class="timeline-company"><i class="fas fa-building"></i> Guava Trees Softech, Bhopal</span>
+                        </div>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> May 2025 - Present</span>
+                        <ul class="timeline-details">
+                            <li>Assist in design and development of the account software application</li>
+                            <li>App development and converting ideas, designs and requirements to concrete testable production builds</li>
+                            <li>Understand and implement specific design patterns</li>
+                            <li>Worked on features like Audio Recording, Wave, Dio, Keycloak Authentication</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">Dio</span>
+                            <span class="tag">Keycloak</span>
+                            <span class="tag">Audio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Android / Flutter Application Developer</h3>
+                            <span class="timeline-company"><i class="fas fa-building"></i> Maestros InfoTech, Bhopal</span>
+                        </div>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Dec 2021 - May 2025</span>
+                        <ul class="timeline-details">
+                            <li>Designed and developed applications for the Android platform</li>
+                            <li>Collaborated with cross-functional teams to define, design, and ship new features</li>
+                            <li>Worked with data sources and APIs for seamless backend integration</li>
+                            <li>Unit-tested code for robustness, including test cases, usability, and general reliability</li>
+                            <li>Worked on bug fixing and improving application performance</li>
+                            <li>Continuously discovered, evaluated, and implemented new technologies to maximize development efficiency</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Android</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">BloC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">04.</span> Featured Projects
+            </h2>
+            <div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="flutter">Flutter</button>
+                <button class="filter-btn" data-filter="android">Android</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Book Indian Talents -->
+                <div class="project-card" data-category="flutter" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://play.google.com/store/apps/details?id=com.bookindiantalent.app" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View on Play Store"><i class="fab fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Book Indian Talents</h3>
+                        <p>India's leading talent booking app, connecting users with professionals for birthdays, weddings, corporate events & more. Unleash the magic of talents for every occasion!</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>MVVM</span>
+                            <span>PhonePe</span>
+                            <span>REST APIs</span>
+                            <span>Firebase</span>
+                            <span>BloC</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Player Sports -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-table-tennis"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://playerssport.in" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Player Sports</h3>
+                        <p>A Flutter Web application for booking Badminton Courts with seamless online payment integration and real-time availability.</p>
+                        <div class="project-tech">
+                            <span>Flutter Web</span>
+                            <span>Firebase</span>
+                            <span>HTTP</span>
+                            <span>Dart</span>
+                            <span>BloC</span>
+                            <span>PhonePe</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: FreshFul -->
+                <div class="project-card" data-category="android" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-basket"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://play.google.com/store/apps/details?id=com.freshful" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View on Play Store"><i class="fab fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>FreshFul</h3>
+                        <p>Delivers the freshest meat, seafood, fruits, vegetables, dairy & snacks to your doorstep with fast and reliable delivery within 60 minutes.</p>
+                        <div class="project-tech">
+                            <span>Android SDK</span>
+                            <span>Firebase</span>
+                            <span>Google Maps</span>
+                            <span>Retrofit</span>
+                            <span>Paytm</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4: Cable Net ProINV -->
+                <div class="project-card" data-category="android" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tv"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://play.google.com/store/apps/details?id=com.cablenetpro" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View on Play Store"><i class="fab fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cable Net ProINV</h3>
+                        <p>Complete Cable Accounting Solution with STB Management, customer accounts, complaint management, alert SMS, and payment reporting.</p>
+                        <div class="project-tech">
+                            <span>Android SDK</span>
+                            <span>Java</span>
+                            <span>POS Printer</span>
+                            <span>Android Networking</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5: YashveePay -->
+                <div class="project-card" data-category="android" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-receipt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://play.google.com/store/apps/details?id=com.yashveepay.app" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View on Play Store"><i class="fab fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>YashveePay</h3>
+                        <p>Android app for Cable TV account holders to view account details, make payments, and view receipts with CC Avenue payment gateway integration.</p>
+                        <div class="project-tech">
+                            <span>Android SDK</span>
+                            <span>Java</span>
+                            <span>Google Maps</span>
+                            <span>CC Avenue</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- More Projects Card -->
+                <div class="project-card" data-category="flutter" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://play.google.com/store/apps/details?id=com.zandu.news.app" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View on Play Store"><i class="fab fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>More Published Apps</h3>
+                        <p>Several more apps published on Google Play Store including Zandu News, Itamoto Travel, and Vidya Learning educational platform.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Android</span>
+                            <span>Firebase</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION SECTION ========== -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">05.</span> Education
+            </h2>
+            <div class="education-grid">
+                <div class="education-cards">
+                    <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="edu-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="edu-content">
+                            <h3>Bachelor in Computer Application (BCA)</h3>
+                            <p class="edu-institution">Computer Applications</p>
+                            <p class="edu-school">LNCT University, Bhopal</p>
+                            <span class="edu-date">2020 - 2023</span>
+                        </div>
+                    </div>
+                    <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="edu-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="edu-content">
+                            <h3>Higher Secondary (XII)</h3>
+                            <p class="edu-institution">Science Stream</p>
+                            <p class="edu-school">MP Board, Bhopal</p>
+                            <span class="edu-date">2018 - 2020</span>
+                        </div>
+                    </div>
+                    <div class="edu-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="edu-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <div class="edu-content">
+                            <h3>High School (X)</h3>
+                            <p class="edu-institution">General Studies</p>
+                            <p class="edu-school">MP Board</p>
+                            <span class="edu-date">Completed 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">06.</span> Get In Touch
+            </h2>
+            <p class="contact-subtitle" data-aos="fade-up">
+                I'm currently open to new opportunities. Whether you have a project idea,
+                a collaboration in mind, or just want to say hello, feel free to reach out!
+            </p>
+            <div class="contact-cards" data-aos="fade-up" data-aos-delay="100">
+                <a href="mailto:rahilali15032002@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4>Email</h4>
+                    <p>rahilali15032002@gmail.com</p>
+                </a>
+                <a href="tel:+917987737702" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h4>Phone</h4>
+                    <p>+91 7987737702</p>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4>Location</h4>
+                    <p>Bhopal, India</p>
+                </div>
+                <a href="https://play.google.com/store/apps/developer?id=Maestros+InfoTech" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-google-play"></i>
+                    </div>
+                    <h4>Google Play</h4>
+                    <p>Published Apps</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <span class="logo-bracket">&lt;</span>Rahil<span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p>Flutter & Android Developer building seamless mobile experiences.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="mailto:rahilali15032002@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+917987737702" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rahil Ali Raza. All rights reserved.</p>
+                <p>Designed & Built with <span class="heart">&hearts;</span> by Rahil</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
